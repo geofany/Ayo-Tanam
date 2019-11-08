@@ -216,6 +216,7 @@ margin_left = 424.186
 margin_top = 333.723
 margin_right = 581.186
 margin_bottom = 670.723
+focus_mode = 0
 flat = true
 script = ExtResource( 3 )
 
@@ -248,6 +249,7 @@ margin_left = 624.186
 margin_top = 333.723
 margin_right = 781.186
 margin_bottom = 670.723
+focus_mode = 0
 flat = true
 script = ExtResource( 3 )
 
@@ -280,6 +282,7 @@ margin_left = 824.186
 margin_top = 333.723
 margin_right = 981.186
 margin_bottom = 670.723
+focus_mode = 0
 flat = true
 script = ExtResource( 3 )
 
@@ -307,11 +310,11 @@ texture_progress = ExtResource( 31 )
 fill_mode = 3
 
 [node name="tanah5" type="Button" parent="."]
-editor/display_folded = true
 margin_left = 1024.19
 margin_top = 333.723
 margin_right = 1181.19
 margin_bottom = 670.723
+focus_mode = 0
 flat = true
 script = ExtResource( 3 )
 
