@@ -4,30 +4,30 @@
 [ext_resource path="res://Assets/HUD tools.png" type="Texture" id=2]
 [ext_resource path="res://tanah1.gd" type="Script" id=3]
 [ext_resource path="res://Assets/tanah kering 1.png" type="Texture" id=4]
-[ext_resource path="res://Assets/jagung besar layu.png" type="Texture" id=5]
-[ext_resource path="res://Assets/benih kering nw.png" type="Texture" id=6]
-[ext_resource path="res://Assets/benih basah 1.png" type="Texture" id=7]
-[ext_resource path="res://Assets/jagung besar kering.png" type="Texture" id=8]
-[ext_resource path="res://Assets/jagung kecil kering kering.png" type="Texture" id=9]
-[ext_resource path="res://Assets/jagung sedang kering nw.png" type="Texture" id=10]
-[ext_resource path="res://Assets/benih kering 1.png" type="Texture" id=11]
-[ext_resource path="res://Assets/jagung kecil kering layu NW.png" type="Texture" id=12]
-[ext_resource path="res://Assets/jagung sedang kering layu NW.png" type="Texture" id=13]
-[ext_resource path="res://Assets/jagung kecil kering 1.png" type="Texture" id=14]
-[ext_resource path="res://Assets/jagung sedang kering layu.png" type="Texture" id=15]
-[ext_resource path="res://Assets/jagung sedang kering kering.png" type="Texture" id=16]
-[ext_resource path="res://Assets/jagung sedang kering kering NW.png" type="Texture" id=17]
-[ext_resource path="res://Assets/jagung sedang kering 1.png" type="Texture" id=18]
-[ext_resource path="res://Assets/jagung kecil kering layu.png" type="Texture" id=19]
-[ext_resource path="res://Assets/jagung kecil kering nw.png" type="Texture" id=20]
-[ext_resource path="res://Assets/jagung besar kering 1.png" type="Texture" id=21]
-[ext_resource path="res://Assets/jagung kecil kering kering NW.png" type="Texture" id=22]
-[ext_resource path="res://Assets/jagung kecil basah layu.png" type="Texture" id=23]
-[ext_resource path="res://Assets/jagung sedang basah kering.png" type="Texture" id=24]
-[ext_resource path="res://Assets/jagung sedang basah layu.png" type="Texture" id=25]
-[ext_resource path="res://Assets/jagung sedang basah 1.png" type="Texture" id=26]
+[ext_resource path="res://Assets/jagung sedang kering layu NW.png" type="Texture" id=5]
+[ext_resource path="res://Assets/jagung besar kering 1.png" type="Texture" id=6]
+[ext_resource path="res://Assets/jagung kecil kering kering NW.png" type="Texture" id=7]
+[ext_resource path="res://Assets/jagung sedang kering nw.png" type="Texture" id=8]
+[ext_resource path="res://Assets/jagung sedang kering layu.png" type="Texture" id=9]
+[ext_resource path="res://Assets/jagung kecil basah layu.png" type="Texture" id=10]
+[ext_resource path="res://Assets/jagung besar layu.png" type="Texture" id=11]
+[ext_resource path="res://Assets/jagung kecil kering kering.png" type="Texture" id=12]
+[ext_resource path="res://Assets/benih kering nw.png" type="Texture" id=13]
+[ext_resource path="res://Assets/jagung sedang kering kering NW.png" type="Texture" id=14]
+[ext_resource path="res://Assets/jagung sedang kering 1.png" type="Texture" id=15]
+[ext_resource path="res://Assets/jagung kecil kering layu.png" type="Texture" id=16]
+[ext_resource path="res://Assets/jagung besar kering.png" type="Texture" id=17]
+[ext_resource path="res://Assets/benih kering 1.png" type="Texture" id=18]
+[ext_resource path="res://Assets/jagung sedang basah kering.png" type="Texture" id=19]
+[ext_resource path="res://Assets/jagung sedang basah layu.png" type="Texture" id=20]
+[ext_resource path="res://Assets/jagung kecil kering 1.png" type="Texture" id=21]
+[ext_resource path="res://Assets/benih basah 1.png" type="Texture" id=22]
+[ext_resource path="res://Assets/jagung sedang kering kering.png" type="Texture" id=23]
+[ext_resource path="res://Assets/jagung kecil kering layu NW.png" type="Texture" id=24]
+[ext_resource path="res://Assets/jagung kecil kering nw.png" type="Texture" id=25]
+[ext_resource path="res://Assets/jagung kecil basah 1.png" type="Texture" id=26]
 [ext_resource path="res://Assets/jagung kecil basah kering.png" type="Texture" id=27]
-[ext_resource path="res://Assets/jagung kecil basah 1.png" type="Texture" id=28]
+[ext_resource path="res://Assets/jagung sedang basah 1.png" type="Texture" id=28]
 [ext_resource path="res://Assets/under.png" type="Texture" id=29]
 [ext_resource path="res://Assets/over.png" type="Texture" id=30]
 [ext_resource path="res://Assets/progress.png" type="Texture" id=31]
@@ -45,112 +45,112 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 5 ) ],
 "loop": true,
-"name": "Jagung Besar Layu",
+"name": "Jagung Sedang Layu NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
-"name": "Benih NW",
+"name": "Jagung Besar Normal",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 7 ) ],
 "loop": true,
-"name": "Benih Basah",
+"name": "Jagung Kecil Kering NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 8 ) ],
 "loop": true,
-"name": "Jagung Besar Kering",
+"name": "Jagung Sedang Normal NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 9 ) ],
 "loop": true,
-"name": "Jagung Kecil Kering",
+"name": "Jagung Sedang Layu",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 10 ) ],
 "loop": true,
-"name": "Jagung Sedang Normal NW",
+"name": "Jagung Kecil Layu Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
-"name": "Benih",
+"name": "Jagung Besar Layu",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 12 ) ],
 "loop": true,
-"name": "Jagung Kecil Layu NW",
+"name": "Jagung Kecil Kering",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 13 ) ],
 "loop": true,
-"name": "Jagung Sedang Layu NW",
+"name": "Benih NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 14 ) ],
 "loop": true,
-"name": "Jagung Kecil Normal",
+"name": "Jagung Sedang Kering NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 15 ) ],
 "loop": true,
-"name": "Jagung Sedang Layu",
+"name": "Jagung Sedang Normal",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ) ],
 "loop": true,
-"name": "Jagung Sedang Kering",
+"name": "Jagung Kecil Layu",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 17 ) ],
 "loop": true,
-"name": "Jagung Sedang Kering NW",
+"name": "Jagung Besar Kering",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 18 ) ],
 "loop": true,
-"name": "Jagung Sedang Normal",
+"name": "Benih",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 19 ) ],
 "loop": true,
-"name": "Jagung Kecil Layu",
+"name": "Jagung Sedang Kering Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 20 ) ],
 "loop": true,
-"name": "Jagung Kecil Normal NW",
+"name": "Jagung Sedang Layu Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 21 ) ],
 "loop": true,
-"name": "Jagung Besar Normal",
+"name": "Jagung Kecil Normal",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 22 ) ],
 "loop": true,
-"name": "Jagung Kecil Kering NW",
+"name": "Benih Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 23 ) ],
 "loop": true,
-"name": "Jagung Kecil Layu Basah",
+"name": "Jagung Sedang Kering",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 24 ) ],
 "loop": true,
-"name": "Jagung Sedang Kering Basah",
+"name": "Jagung Kecil Layu NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 25 ) ],
 "loop": true,
-"name": "Jagung Sedang Layu Basah",
+"name": "Jagung Kecil Normal NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 26 ) ],
 "loop": true,
-"name": "Jagung Sedang Normal Basah",
+"name": "Jagung Kecil Normal Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 27 ) ],
@@ -160,7 +160,7 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 28 ) ],
 "loop": true,
-"name": "Jagung Kecil Normal Basah",
+"name": "Jagung Sedang Normal Basah",
 "speed": 5.0
 } ]
 
