@@ -85,6 +85,7 @@ func _process(delta):
 func _on_tanah1_pressed():
 	if status == "Tanah":
 		if GlobalVar.benih == true:
+			GlobalVar.jumBenih -= 1
 			get_node("AirTimer").start(1)
 			status = "Benih"
 			change_status(status)
@@ -162,16 +163,19 @@ func _on_tanah1_pressed():
 			
 	if status == "Jagung Besar Normal":
 		if GlobalVar.sabit == true:
+			GlobalVar.money += 300
 			status = "Tanah"
 			change_status(status)			
 	
 	if status == "Jagung Besar Kering":
 		if GlobalVar.sabit == true:
+			GlobalVar.money += 200
 			status = "Tanah"
 			change_status(status)			
 	
 	if status == "Jagung Besar Layu":
 		if GlobalVar.sabit == true:
+			GlobalVar.money += 100
 			status = "Tanah"
 			change_status(status)			
 	pass # Replace with function body.
