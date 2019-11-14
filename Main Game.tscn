@@ -223,6 +223,7 @@ anchor_bottom = 1.0
 script = ExtResource( 1 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+editor/display_folded = true
 
 [node name="Shop" parent="CanvasLayer" instance=ExtResource( 2 )]
 pause_mode = 2
@@ -408,6 +409,7 @@ texture_progress = ExtResource( 34 )
 fill_mode = 3
 
 [node name="Tools" type="Node2D" parent="."]
+editor/display_folded = true
 script = ExtResource( 35 )
 
 [node name="Bibit" type="Button" parent="Tools"]
@@ -507,8 +509,10 @@ scale = Vector2( 0.4, 0.4 )
 texture = ExtResource( 44 )
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="."]
+editor/display_folded = true
 
 [node name="Shop" parent="CanvasLayer2" instance=ExtResource( 45 )]
+focus_mode = 0
 [connection signal="pressed" from="tanah1" to="tanah1" method="_on_tanah1_pressed"]
 [connection signal="timeout" from="tanah1/TumbuhTimer" to="tanah1" method="_on_TumbuhTimer_timeout"]
 [connection signal="timeout" from="tanah1/AirTimer" to="tanah1" method="_on_AirTimer_timeout"]

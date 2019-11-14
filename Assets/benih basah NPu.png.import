@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jagung sedang kering 3.png-3fcdebd1ea1c5aa39d91bfb566a2a77b.stex"
+path="res://.import/benih basah NPu.png-dd314b2341eaf5ed6204ceb124e3d790.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/jagung sedang kering 3.png"
-dest_files=[ "res://.import/jagung sedang kering 3.png-3fcdebd1ea1c5aa39d91bfb566a2a77b.stex" ]
+source_file="res://Assets/benih basah NPu.png"
+dest_files=[ "res://.import/benih basah NPu.png-dd314b2341eaf5ed6204ceb124e3d790.stex" ]
 
 [params]
 

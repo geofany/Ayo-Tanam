@@ -23,6 +23,7 @@ size = 30
 font_data = SubResource( 3 )
 
 [node name="Shop" type="Control"]
+editor/display_folded = true
 margin_right = 40.0
 margin_bottom = 40.0
 script = ExtResource( 1 )
@@ -179,6 +180,7 @@ margin_left = 601.083
 margin_top = -265.66
 margin_right = 677.083
 margin_bottom = -188.66
+focus_mode = 0
 flat = true
 
 [node name="Sprite" type="Sprite" parent="Sprite/exit"]
