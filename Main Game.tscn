@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=61 format=2]
 
 [ext_resource path="res://Main Game.gd" type="Script" id=1]
 [ext_resource path="res://Shop.tscn" type="PackedScene" id=2]
@@ -6,131 +6,141 @@
 [ext_resource path="res://Assets/HUD tools.png" type="Texture" id=4]
 [ext_resource path="res://Assets/HUD 2.png" type="Texture" id=5]
 [ext_resource path="res://tanah1.gd" type="Script" id=6]
-[ext_resource path="res://Assets/tanah kering 1.png" type="Texture" id=7]
-[ext_resource path="res://Assets/jagung sedang kering layu.png" type="Texture" id=8]
-[ext_resource path="res://Assets/jagung kecil basah layu.png" type="Texture" id=9]
-[ext_resource path="res://Assets/jagung besar layu.png" type="Texture" id=10]
-[ext_resource path="res://Assets/jagung kecil kering kering.png" type="Texture" id=11]
-[ext_resource path="res://Assets/benih kering nw.png" type="Texture" id=12]
-[ext_resource path="res://Assets/jagung besar kering.png" type="Texture" id=13]
-[ext_resource path="res://Assets/jagung sedang kering kering NW.png" type="Texture" id=14]
-[ext_resource path="res://Assets/jagung sedang kering 1.png" type="Texture" id=15]
-[ext_resource path="res://Assets/benih kering 1.png" type="Texture" id=16]
-[ext_resource path="res://Assets/jagung kecil kering layu.png" type="Texture" id=17]
-[ext_resource path="res://Assets/jagung sedang kering nw.png" type="Texture" id=18]
-[ext_resource path="res://Assets/jagung sedang basah kering.png" type="Texture" id=19]
-[ext_resource path="res://Assets/jagung sedang basah layu.png" type="Texture" id=20]
-[ext_resource path="res://Assets/jagung sedang kering layu NW.png" type="Texture" id=21]
-[ext_resource path="res://Assets/jagung besar kering 1.png" type="Texture" id=22]
-[ext_resource path="res://Assets/jagung kecil kering kering NW.png" type="Texture" id=23]
+[ext_resource path="res://Assets/benih basah 1.png" type="Texture" id=7]
+[ext_resource path="res://Assets/jagung sedang basah layu.png" type="Texture" id=8]
+[ext_resource path="res://Assets/jagung kecil kering kering NPe.png" type="Texture" id=9]
+[ext_resource path="res://Assets/jagung sedang kering layu.png" type="Texture" id=10]
+[ext_resource path="res://Assets/jagung sedang kering kering NW.png" type="Texture" id=11]
+[ext_resource path="res://Assets/jagung kecil kering 1.png" type="Texture" id=12]
+[ext_resource path="res://Assets/jagung sedang kering kering.png" type="Texture" id=13]
+[ext_resource path="res://Assets/jagung kecil kering layu.png" type="Texture" id=14]
+[ext_resource path="res://Assets/jagung sedang kering nw.png" type="Texture" id=15]
+[ext_resource path="res://Assets/benih kering nw.png" type="Texture" id=16]
+[ext_resource path="res://Assets/jagung kecil kering nw.png" type="Texture" id=17]
+[ext_resource path="res://Assets/jagung kecil basah kering.png" type="Texture" id=18]
+[ext_resource path="res://Assets/jagung besar kering.png" type="Texture" id=19]
+[ext_resource path="res://Assets/jagung kecil kering kering.png" type="Texture" id=20]
+[ext_resource path="res://Assets/jagung sedang basah kering.png" type="Texture" id=21]
+[ext_resource path="res://Assets/jagung sedang kering layu NW.png" type="Texture" id=22]
+[ext_resource path="res://Assets/jagung besar kering 1.png" type="Texture" id=23]
 [ext_resource path="res://Assets/jagung kecil kering layu NW.png" type="Texture" id=24]
-[ext_resource path="res://Assets/jagung kecil kering 1.png" type="Texture" id=25]
-[ext_resource path="res://Assets/benih basah 1.png" type="Texture" id=26]
-[ext_resource path="res://Assets/jagung kecil basah 1.png" type="Texture" id=27]
-[ext_resource path="res://Assets/jagung sedang kering kering.png" type="Texture" id=28]
-[ext_resource path="res://Assets/jagung kecil basah kering.png" type="Texture" id=29]
-[ext_resource path="res://Assets/jagung sedang basah 1.png" type="Texture" id=30]
-[ext_resource path="res://Assets/jagung kecil kering nw.png" type="Texture" id=31]
-[ext_resource path="res://Assets/under.png" type="Texture" id=32]
-[ext_resource path="res://Assets/over.png" type="Texture" id=33]
-[ext_resource path="res://Assets/progress.png" type="Texture" id=34]
-[ext_resource path="res://Tools.gd" type="Script" id=35]
-[ext_resource path="res://Assets/bibit.png" type="Texture" id=36]
-[ext_resource path="res://Assets/bibit kosong.png" type="Texture" id=37]
-[ext_resource path="res://Assets/zorque.ttf" type="DynamicFontData" id=38]
-[ext_resource path="res://Assets/pupuk.png" type="Texture" id=39]
-[ext_resource path="res://Assets/pupuk kosong.png" type="Texture" id=40]
-[ext_resource path="res://Assets/Pestisida.png" type="Texture" id=41]
-[ext_resource path="res://Assets/pestisida kosong.png" type="Texture" id=42]
-[ext_resource path="res://Assets/siraman.png" type="Texture" id=43]
-[ext_resource path="res://Assets/sabit.png" type="Texture" id=44]
-[ext_resource path="res://ButtonShop.tscn" type="PackedScene" id=45]
+[ext_resource path="res://Assets/jagung sedang kering kering NPe.png" type="Texture" id=25]
+[ext_resource path="res://Assets/jagung kecil basah 1.png" type="Texture" id=26]
+[ext_resource path="res://Assets/jagung sedang kering layu NPe.png" type="Texture" id=27]
+[ext_resource path="res://Assets/jagung besar layu.png" type="Texture" id=28]
+[ext_resource path="res://Assets/jagung sedang basah 1.png" type="Texture" id=29]
+[ext_resource path="res://Assets/jagung kecil kering kering NW.png" type="Texture" id=30]
+[ext_resource path="res://Assets/tanah kering 1.png" type="Texture" id=31]
+[ext_resource path="res://Assets/jagung kecil kering normal NPe.png" type="Texture" id=32]
+[ext_resource path="res://Assets/jagung kecil basah layu.png" type="Texture" id=33]
+[ext_resource path="res://Assets/jagung sedang kering 1.png" type="Texture" id=34]
+[ext_resource path="res://Assets/benih kering 1.png" type="Texture" id=35]
+[ext_resource path="res://Assets/jagung sedang kering normal NPe.png" type="Texture" id=36]
+[ext_resource path="res://Assets/jagung kecil kering layu NPe.png" type="Texture" id=37]
+[ext_resource path="res://Assets/jagung kecil kering normal NPu.png" type="Texture" id=38]
+[ext_resource path="res://Assets/jagung sedang kering kering NPu.png" type="Texture" id=39]
+[ext_resource path="res://Assets/jagung sedang kering layu NPu.png" type="Texture" id=40]
+[ext_resource path="res://Assets/jagung sedang kering normal NPu.png" type="Texture" id=41]
+[ext_resource path="res://Assets/under.png" type="Texture" id=42]
+[ext_resource path="res://Assets/over.png" type="Texture" id=43]
+[ext_resource path="res://Assets/progress.png" type="Texture" id=44]
+[ext_resource path="res://Tools.gd" type="Script" id=45]
+[ext_resource path="res://Assets/bibit.png" type="Texture" id=46]
+[ext_resource path="res://Assets/bibit kosong.png" type="Texture" id=47]
+[ext_resource path="res://Assets/zorque.ttf" type="DynamicFontData" id=48]
+[ext_resource path="res://Assets/pupuk.png" type="Texture" id=49]
+[ext_resource path="res://Assets/pupuk kosong.png" type="Texture" id=50]
+[ext_resource path="res://Assets/Pestisida.png" type="Texture" id=51]
+[ext_resource path="res://Assets/pestisida kosong.png" type="Texture" id=52]
+[ext_resource path="res://Assets/siraman.png" type="Texture" id=53]
+[ext_resource path="res://Assets/sabit.png" type="Texture" id=54]
+[ext_resource path="res://ButtonShop.tscn" type="PackedScene" id=55]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 7 ) ],
 "loop": true,
-"name": "Tanah",
+"name": "Benih Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 8 ) ],
 "loop": true,
-"name": "Jagung Sedang Layu",
+"name": "Jagung Sedang Layu Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 9 ) ],
 "loop": true,
-"name": "Jagung Kecil Layu Basah",
+"name": "Jagung Kecil Kering NPe",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 10 ) ],
 "loop": true,
-"name": "Jagung Besar Layu",
+"name": "Jagung Sedang Layu",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
-"name": "Jagung Kecil Kering",
+"name": "Jagung Sedang Kering NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 12 ) ],
 "loop": true,
-"name": "Benih NW",
+"name": "Jagung Kecil Normal",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 13 ) ],
 "loop": true,
-"name": "Jagung Besar Kering",
+"name": "Jagung Sedang Kering",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 14 ) ],
 "loop": true,
-"name": "Jagung Sedang Kering NW",
+"name": "Jagung Kecil Layu",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 15 ) ],
 "loop": true,
-"name": "Jagung Sedang Normal",
+"name": "Jagung Sedang Normal NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ) ],
 "loop": true,
-"name": "Benih",
+"name": "Benih NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 17 ) ],
 "loop": true,
-"name": "Jagung Kecil Layu",
+"name": "Jagung Kecil Normal NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 18 ) ],
 "loop": true,
-"name": "Jagung Sedang Normal NW",
+"name": "Jagung Kecil Kering Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 19 ) ],
 "loop": true,
-"name": "Jagung Sedang Kering Basah",
+"name": "Jagung Besar Kering",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 20 ) ],
 "loop": true,
-"name": "Jagung Sedang Layu Basah",
+"name": "Jagung Kecil Kering",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 21 ) ],
 "loop": true,
-"name": "Jagung Sedang Layu NW",
+"name": "Jagung Sedang Kering Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 22 ) ],
 "loop": true,
-"name": "Jagung Besar Normal",
+"name": "Jagung Sedang Layu NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 23 ) ],
 "loop": true,
-"name": "Jagung Kecil Kering NW",
+"name": "Jagung Besar Normal",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 24 ) ],
@@ -140,48 +150,98 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 25 ) ],
 "loop": true,
-"name": "Jagung Kecil Normal",
+"name": "Jagung Sedang Kering NPe",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 26 ) ],
 "loop": true,
-"name": "Benih Basah",
+"name": "Jagung Kecil Normal Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 27 ) ],
 "loop": true,
-"name": "Jagung Kecil Normal Basah",
+"name": "Jagung Sedang Layu NPe",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 28 ) ],
 "loop": true,
-"name": "Jagung Sedang Kering",
+"name": "Jagung Besar Layu",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 29 ) ],
 "loop": true,
-"name": "Jagung Kecil Kering Basah",
+"name": "Jagung Sedang Normal Basah",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 30 ) ],
 "loop": true,
-"name": "Jagung Sedang Normal Basah",
+"name": "Jagung Kecil Kering NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 31 ) ],
 "loop": true,
-"name": "Jagung Kecil Normal NW",
+"name": "Tanah",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 32 ) ],
+"loop": true,
+"name": "Jagung Kecil Normal NPe",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 33 ) ],
+"loop": true,
+"name": "Jagung Kecil Layu Basah",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 34 ) ],
+"loop": true,
+"name": "Jagung Sedang Normal",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 35 ) ],
+"loop": true,
+"name": "Benih",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 36 ) ],
+"loop": true,
+"name": "Jagung Sedang Normal NPe",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 37 ) ],
+"loop": true,
+"name": "Jagung Kecil Layu NPe",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 38 ) ],
+"loop": true,
+"name": "Jagung Kecil Normal NPu",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 39 ) ],
+"loop": true,
+"name": "Jagung Sedang Kering NPu",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ) ],
+"loop": true,
+"name": "Jagung Sedang Layu NPu",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ) ],
+"loop": true,
+"name": "Jagung Sedang Normal NPu",
 "speed": 5.0
 } ]
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 36 ) ],
+"frames": [ ExtResource( 46 ) ],
 "loop": true,
 "name": "av",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 37 ) ],
+"frames": [ ExtResource( 47 ) ],
 "loop": true,
 "name": "unv",
 "speed": 5.0
@@ -189,16 +249,16 @@ animations = [ {
 
 [sub_resource type="DynamicFont" id=3]
 size = 14
-font_data = ExtResource( 38 )
+font_data = ExtResource( 48 )
 
 [sub_resource type="SpriteFrames" id=4]
 animations = [ {
-"frames": [ ExtResource( 39 ) ],
+"frames": [ ExtResource( 49 ) ],
 "loop": true,
 "name": "av",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 40 ) ],
+"frames": [ ExtResource( 50 ) ],
 "loop": true,
 "name": "unv",
 "speed": 5.0
@@ -206,12 +266,12 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=5]
 animations = [ {
-"frames": [ ExtResource( 41 ) ],
+"frames": [ ExtResource( 51 ) ],
 "loop": true,
 "name": "av",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 42 ) ],
+"frames": [ ExtResource( 52 ) ],
 "loop": true,
 "name": "unv",
 "speed": 5.0
@@ -244,7 +304,6 @@ scale = Vector2( 0.6, 0.6 )
 texture = ExtResource( 5 )
 
 [node name="tanah1" type="Button" parent="."]
-editor/display_folded = true
 margin_left = 224.186
 margin_top = 333.723
 margin_right = 381.186
@@ -271,13 +330,15 @@ margin_top = 49.3999
 margin_right = 26.7
 margin_bottom = 261.4
 rect_scale = Vector2( 0.7, 0.7 )
-texture_under = ExtResource( 32 )
-texture_over = ExtResource( 33 )
-texture_progress = ExtResource( 34 )
+texture_under = ExtResource( 42 )
+texture_over = ExtResource( 43 )
+texture_progress = ExtResource( 44 )
 fill_mode = 3
 
+[node name="HamaTimer" type="Timer" parent="tanah1"]
+process_mode = 0
+
 [node name="tanah2" type="Button" parent="."]
-editor/display_folded = true
 margin_left = 424.186
 margin_top = 333.723
 margin_right = 581.186
@@ -304,13 +365,15 @@ margin_top = 49.3999
 margin_right = 26.7
 margin_bottom = 261.4
 rect_scale = Vector2( 0.7, 0.7 )
-texture_under = ExtResource( 32 )
-texture_over = ExtResource( 33 )
-texture_progress = ExtResource( 34 )
+texture_under = ExtResource( 42 )
+texture_over = ExtResource( 43 )
+texture_progress = ExtResource( 44 )
 fill_mode = 3
 
+[node name="HamaTimer" type="Timer" parent="tanah2"]
+process_mode = 0
+
 [node name="tanah3" type="Button" parent="."]
-editor/display_folded = true
 margin_left = 624.186
 margin_top = 333.723
 margin_right = 781.186
@@ -337,13 +400,15 @@ margin_top = 49.3999
 margin_right = 26.7
 margin_bottom = 261.4
 rect_scale = Vector2( 0.7, 0.7 )
-texture_under = ExtResource( 32 )
-texture_over = ExtResource( 33 )
-texture_progress = ExtResource( 34 )
+texture_under = ExtResource( 42 )
+texture_over = ExtResource( 43 )
+texture_progress = ExtResource( 44 )
 fill_mode = 3
 
+[node name="HamaTimer" type="Timer" parent="tanah3"]
+process_mode = 0
+
 [node name="tanah4" type="Button" parent="."]
-editor/display_folded = true
 margin_left = 824.186
 margin_top = 333.723
 margin_right = 981.186
@@ -370,13 +435,15 @@ margin_top = 49.3999
 margin_right = 26.7
 margin_bottom = 261.4
 rect_scale = Vector2( 0.7, 0.7 )
-texture_under = ExtResource( 32 )
-texture_over = ExtResource( 33 )
-texture_progress = ExtResource( 34 )
+texture_under = ExtResource( 42 )
+texture_over = ExtResource( 43 )
+texture_progress = ExtResource( 44 )
 fill_mode = 3
 
+[node name="HamaTimer" type="Timer" parent="tanah4"]
+process_mode = 0
+
 [node name="tanah5" type="Button" parent="."]
-editor/display_folded = true
 margin_left = 1024.19
 margin_top = 333.723
 margin_right = 1181.19
@@ -403,14 +470,17 @@ margin_top = 49.3999
 margin_right = 26.7
 margin_bottom = 261.4
 rect_scale = Vector2( 0.7, 0.7 )
-texture_under = ExtResource( 32 )
-texture_over = ExtResource( 33 )
-texture_progress = ExtResource( 34 )
+texture_under = ExtResource( 42 )
+texture_over = ExtResource( 43 )
+texture_progress = ExtResource( 44 )
 fill_mode = 3
+
+[node name="HamaTimer" type="Timer" parent="tanah5"]
+process_mode = 0
 
 [node name="Tools" type="Node2D" parent="."]
 editor/display_folded = true
-script = ExtResource( 35 )
+script = ExtResource( 45 )
 
 [node name="Bibit" type="Button" parent="Tools"]
 margin_left = 17.1398
@@ -493,7 +563,7 @@ flat = true
 [node name="siraman" type="Sprite" parent="Tools/Siraman"]
 position = Vector2( 47.9238, 42.6409 )
 scale = Vector2( 0.4, 0.4 )
-texture = ExtResource( 43 )
+texture = ExtResource( 53 )
 
 [node name="Sabit" type="Button" parent="Tools"]
 margin_left = 1268.1
@@ -506,28 +576,33 @@ flat = true
 [node name="sabit" type="Sprite" parent="Tools/Sabit"]
 position = Vector2( 49.4333, 49.056 )
 scale = Vector2( 0.4, 0.4 )
-texture = ExtResource( 44 )
+texture = ExtResource( 54 )
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="."]
 editor/display_folded = true
 
-[node name="Shop" parent="CanvasLayer2" instance=ExtResource( 45 )]
+[node name="Shop" parent="CanvasLayer2" instance=ExtResource( 55 )]
 focus_mode = 0
 [connection signal="pressed" from="tanah1" to="tanah1" method="_on_tanah1_pressed"]
 [connection signal="timeout" from="tanah1/TumbuhTimer" to="tanah1" method="_on_TumbuhTimer_timeout"]
 [connection signal="timeout" from="tanah1/AirTimer" to="tanah1" method="_on_AirTimer_timeout"]
+[connection signal="timeout" from="tanah1/HamaTimer" to="tanah1" method="_on_HamaTimer_timeout"]
 [connection signal="pressed" from="tanah2" to="tanah2" method="_on_tanah1_pressed"]
 [connection signal="timeout" from="tanah2/TumbuhTimer" to="tanah2" method="_on_TumbuhTimer_timeout"]
 [connection signal="timeout" from="tanah2/AirTimer" to="tanah2" method="_on_AirTimer_timeout"]
+[connection signal="timeout" from="tanah2/HamaTimer" to="tanah2" method="_on_HamaTimer_timeout"]
 [connection signal="pressed" from="tanah3" to="tanah3" method="_on_tanah1_pressed"]
 [connection signal="timeout" from="tanah3/TumbuhTimer" to="tanah3" method="_on_TumbuhTimer_timeout"]
 [connection signal="timeout" from="tanah3/AirTimer" to="tanah3" method="_on_AirTimer_timeout"]
+[connection signal="timeout" from="tanah3/HamaTimer" to="tanah3" method="_on_HamaTimer_timeout"]
 [connection signal="pressed" from="tanah4" to="tanah4" method="_on_tanah1_pressed"]
 [connection signal="timeout" from="tanah4/TumbuhTimer" to="tanah4" method="_on_TumbuhTimer_timeout"]
 [connection signal="timeout" from="tanah4/AirTimer" to="tanah4" method="_on_AirTimer_timeout"]
+[connection signal="timeout" from="tanah4/HamaTimer" to="tanah4" method="_on_HamaTimer_timeout"]
 [connection signal="pressed" from="tanah5" to="tanah5" method="_on_tanah1_pressed"]
 [connection signal="timeout" from="tanah5/TumbuhTimer" to="tanah5" method="_on_TumbuhTimer_timeout"]
 [connection signal="timeout" from="tanah5/AirTimer" to="tanah5" method="_on_AirTimer_timeout"]
+[connection signal="timeout" from="tanah5/HamaTimer" to="tanah5" method="_on_HamaTimer_timeout"]
 [connection signal="pressed" from="Tools/Bibit" to="Tools" method="_on_Bibit_pressed"]
 [connection signal="pressed" from="Tools/pupuk" to="Tools" method="_on_pupuk_pressed"]
 [connection signal="pressed" from="Tools/pestisida" to="Tools" method="_on_pestisida_pressed"]
