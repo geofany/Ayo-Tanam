@@ -30,27 +30,27 @@ func _process(delta):
 		get_node("HamaTimer").stop()
 		get_node("AirTimer").stop()
 	
-#	if air <= 75 && air >= 65:
-#		if status == "Jagung Kecil Normal NPu":
-#			status = "Jagung Kecil Kering NW"
-#		if status == "Jagung Sedang Normal NPu":
-#			status = "Jagung Sedang Kering NW"
-#		siram = true
-#		change_status(status)
-#	elif air <= 55 && air >= 45:
-#		if status == "Jagung Sedang Kering NPu":
-#			status = "Jagung Sedang Layu NW"
-#		siram = true
-#		change_status(status)
-#	elif air <= 35 && air >= 25:
-#		if status == "Jagung Sedang Layu NPu":
-#			status = "Tanah"
-#			siraman = 0
-#			air = 100
-#			sakit = false
-#			get_node("HamaTimer").stop()
-#			get_node("AirTimer").stop()
-#		change_status(status)
+	if air <= 75 && air >= 65:
+		if status == "Jagung Kecil Normal NPu":
+			status = "Jagung Kecil Kering NW"
+		if status == "Jagung Sedang Normal NPu":
+			status = "Jagung Sedang Kering NW"
+		siram = true
+		change_status(status)
+	elif air <= 55 && air >= 45:
+		if status == "Jagung Sedang Kering NPu":
+			status = "Jagung Sedang Layu NW"
+		siram = true
+		change_status(status)
+	elif air <= 35 && air >= 25:
+		if status == "Jagung Sedang Layu NPu":
+			status = "Tanah"
+			siraman = 0
+			air = 100
+			sakit = false
+			get_node("HamaTimer").stop()
+			get_node("AirTimer").stop()
+		change_status(status)
 		
 	if sakit == true:
 		if status == "Jagung Kecil Normal" || status == "Jagung Kecil Normal Basah" || status == "Jagung Kecil Normal NW":
@@ -172,18 +172,18 @@ func _on_tanah1_pressed():
 		
 		
 		
-#	if pupuk == true && GlobalVar.pupuk == true:
-#		pupuk = false
-#		GlobalVar.jumPupuk -=1
-#		if status == "Jagung Kecil Normal NPu":
-#			status = "Jagung Kecil Normal"
-#		elif status == "Jagung Sedang Normal NPu":
-#			status = "Jagung Sedang Normal"
-#		elif status == "Jagung Sedang Kering NPu":
-#			status = "Jagung Sedang Kering"
-#		elif status == "Jagung Sedang Layu NPu":
-#			status = "Jagung Sedang Layu"
-#		change_status(status)
+	if pupuk == true && GlobalVar.pupuk == true:
+		pupuk = false
+		GlobalVar.jumPupuk -=1
+		if status == "Jagung Kecil Normal NPu":
+			status = "Jagung Kecil Normal"
+		elif status == "Jagung Sedang Normal NPu":
+			status = "Jagung Sedang Normal"
+		elif status == "Jagung Sedang Kering NPu":
+			status = "Jagung Sedang Kering"
+		elif status == "Jagung Sedang Layu NPu":
+			status = "Jagung Sedang Layu"
+		change_status(status)
 	
 	if status == "Jagung Kecil Normal":
 		if GlobalVar.siraman == true && siram == true:
