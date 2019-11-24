@@ -13,7 +13,7 @@ func _process(delta):
 	get_node('Sprite/bibit/stock').set_text(str(GlobalVar.jumBenih))
 	get_node('Sprite/pupuk/stock').set_text(str(GlobalVar.jumPupuk))
 	get_node('Sprite/pestisida/stock').set_text(str(GlobalVar.jumPestisida))
-	get_node('/root/MainGame/CanvasLayer2/Shop/Label').set_text(str(GlobalVar.money))
+	get_node('/root/MainGame/Shop/Label').set_text(str(GlobalVar.money))
 	pass
 
 

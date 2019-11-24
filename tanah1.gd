@@ -1,4 +1,4 @@
-	extends Button
+extends Button
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -15,6 +15,7 @@ var pupuk = true
 func _ready():
 	animation_jagung = get_child(0)
 	air = 100.0
+	status = "Tanah"
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -92,8 +93,6 @@ func _process(delta):
 		elif status == "Jagung Kecil Normal NPe":
 			status = "Jagung Kecil Kering NPe"
 			change_status(status)
-	
-	print(sakit)
 	
 	if siraman == 2:
 		status = "Jagung Kecil Normal NPu"
